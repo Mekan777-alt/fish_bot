@@ -41,7 +41,7 @@ b22 = KeyboardButton("20:30")
 b23 = KeyboardButton("21:00")
 b24 = KeyboardButton("21:30")
 b25 = KeyboardButton("22:00")
-timeBtn = ReplyKeyboardMarkup().add(b1).add(b2).add(b3).add(b4).add(b5).add(b6).add(b7).add(b8).add(b9).add(b10)
+timeBtn = ReplyKeyboardMarkup().add(b3).add(b4).add(b5).add(b6).add(b7).add(b8).add(b9).add(b10)
 timeBtn.add(b11).add(b12).add(b13).add(b14).add(b15).add(b16).add(b17).add(b18).add(b19).add(b20).add(b21) \
     .add(b22).add(b23).add(b24).add(b25)
 """date button"""

@@ -5,13 +5,12 @@ from app import btnTime
 
 @dp.message_handler(text=btnTime)
 async def time(message: types.Message):
-    await bot.send_photo(message.from_user.id, types.InputFile(""))
-    await message.answer("Адрес:\n"
-                         "Держинского 6 Б\n"
+    await bot.send_photo(message.from_user.id, types.InputFile("/Users/mekanmededov/Desktop/fish_bot/photo_2022-05-14 20.04.42.jpeg"))
+    await message.answer("Рыбный ресторан европейской кухни\n"
+                         "Завтраки с 11:00 до 15:00 каждый день\n"
+                         "Скидка 15% с 11:00 до 17:00 по будням на основное меню\n"
+                         "☎️ Тел: 226 80 80\n"
                          "\n"
-                         "☎️ 2661111\n"
-                         "\n"
-                         "Ромэйн Meat\n"
-                         "Дзержинского, 6Б, Казань\n"
-                         "+7 (843) 266‒11‒11\n")
-    await bot.send_location(message.from_user.id, latitude=55.79548980051069, longitude=49.11299946446939)
+                         "Ромэйн FISH\n"
+                         "Татарстан, Казань, Кремлевская 9\n")
+    await bot.send_location(message.from_user.id, latitude=55.795183, longitude=49.112349)
